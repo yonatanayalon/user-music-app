@@ -1,0 +1,16 @@
+<div id="main-content-wrapper" class="container">
+<h2>My Users</h2>
+<div class="" *ngIf="users">
+  <div class="row" *ngFor="let user of users; let idx = index" (click)="editUser(user)">
+    <div class="col-md-2">
+      {{user.thumbnail}}
+    </div>
+    <div class="col-md-6">
+      {{user.name}}
+    </div>
+    <div class="col-md-4">
+      {{user.website}}
+    </div>
+  </div>
+</div>
+</div>
