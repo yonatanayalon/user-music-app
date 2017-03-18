@@ -1,0 +1,11 @@
+<div id="inner-albums-wrapper">
+  <h2>Available Albums</h2>
+  <div *ngIf="userAlbumIds">
+    <div class="album-wrapper" *ngFor="let album of albums" (click)="selectAlbum(album)" [class.selected]="user.albumIds.indexOf(album.id)!==-1">
+      <div class="image"></div>
+      <div>{{album.title}}</div>
+      <div>{{album.artist}}</div> 
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
