@@ -1,0 +1,16 @@
+{
+  "name": "music-app-backend",
+  "version": "1.0.0",
+  "description": "music-app-backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Yonatan Ayalon",
+  "dependencies": {
+    "body-parser": "1.16.1",
+    "express": "4.14.1",
+    "lodash": "4.17.4",
+    "lorem-ipsum": "1.0.3"
+  }
+}
