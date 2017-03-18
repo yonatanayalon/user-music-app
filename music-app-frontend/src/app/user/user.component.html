@@ -1,0 +1,25 @@
+<div class="container">
+  <div id="content-wrapper" *ngIf="user">
+    <div id="user-details-wrapper">
+      <div id="user-thumbnail">{{user.thumbnail}}</div>
+      <h2 id="user-name">{{user.name}}</h2>
+      <div class="clearfix"></div>
+    </div>
+    <ul class="nav nav-tabs">
+      <li (click)="toggleActiveTab('showPostsTab')" [class.active]="selectedTab == 'showPostsTab'"><a href="javascript:void(0)">Posts</a></li>
+      <li (click)="toggleActiveTab('showAlbumsTab')" [class.active]="selectedTab == 'showAlbumsTab'"><a href="javascript:void(0)">Albums</a></li>
+    </ul>
+    <div *ngIf="selectedTab == 'showPostsTab'">
+      <div id="user-posts-wrapper">
+        <user-posts-list></user-posts-list>
+      </div>
+    </div>
+    <div *ngIf="selectedTab == 'showAlbumsTab'">
+      <div id="user-albums-wrapper">
+        <user-albums-list [userId]="user.id"></user-albums-list>
+      </div>
+      <div id="albums-wrapper">
+        <albums-list [user]="user"></albums-list>
+      </div>      
+    </div>    
+</div>
