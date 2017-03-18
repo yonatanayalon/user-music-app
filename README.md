@@ -4,6 +4,12 @@ Shows a list of Users with the ability to Update User's selected Albums
 
 ## Installation Instructions
 
+  (1) Clone Git Repo:
+```
+git clone https://github.com/yonatanayalon/user-music-app.git
+```   
+  
+
 ### Running the Web Server API
   (1) Enter "music-app-backend" folder
   
