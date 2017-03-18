@@ -1,0 +1,22 @@
+<div id="inner-user-albums-wrapper" [class.view-wide]="viewModeWide">
+  <div id="user-albums-view-selection" (click)="toggleView()"><span><<</span></div>
+  <div id="user-albums-content">
+    <h2>Selected Albums</h2>
+    <div [class.album-wrapper]="viewModeWide" *ngFor="let album of albums; let idx = index">
+      <div *ngIf="!viewModeWide" class="btn btn-default">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" (click)="removeAlbum(album)"><span aria-hidden="true">×</span></button>
+        {{album.title}}
+      </div>
+      <span *ngIf="viewModeWide">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" (click)="removeAlbum(album)"><span aria-hidden="true">×</span></button>
+        <div class="image"></div>
+        <div>
+          {{album.title}}
+        </div>
+        <div>
+          {{album.artist}}
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
