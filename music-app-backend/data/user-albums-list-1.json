@@ -1,0 +1,14 @@
+[
+    {
+		"id": 1,
+        "thumbnail": "123",
+        "title": "album 1",
+        "artist": "artist 1"
+    },
+    {
+		"id": 2,
+        "thumbnail": "12356",
+        "title": "album 2",
+        "artist": "artist 2"
+    }
+]

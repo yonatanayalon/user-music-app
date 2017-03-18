@@ -1,0 +1,7 @@
+{
+	"id":1,
+	"name": "user 1",
+	"thumbnail":"image1",
+	"website":"www.website1.com",
+	"albumIds": [1,2]
+}

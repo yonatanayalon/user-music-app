@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "name": "user 1",
+        "thumbnail":"image1",
+        "website":"www.website1.com",
+        "albums":["album 1", "album 2", "album 3"],
+        "posts":["post 1", "post 2", "post 3"]
+    },
+    {
+        "id":2,
+        "name": "user 2",
+        "thumbnail":"image2",
+        "website":"www.website2.com",
+        "albums":["album 2"],
+        "posts":["post 1", "post 3"]
+    }    
+]
