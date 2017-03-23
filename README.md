@@ -24,7 +24,9 @@ npm start
 You should get the following message: "**Music App server listening on port 3000!**"
 
 ### Running the Client (Angular2 + Typescript)
-####Prerequisites
+
+#### Prerequisites
+
 Install angular-cli https://github.com/angular/angular-cli
 ```bash
 npm install -g @angular/cli
