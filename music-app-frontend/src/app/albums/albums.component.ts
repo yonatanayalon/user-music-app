@@ -7,7 +7,7 @@ import { DataService }         from '../services/data.service';
 @Component({
   selector: 'albums-list',
   templateUrl: './albums.component.html',
-  styleUrls: [ './albums.component.css' ],
+  styleUrls: [ './albums.component.less' ],
   encapsulation: ViewEncapsulation.None
 })
 export class AlbumsComponent implements OnInit {
