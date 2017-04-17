@@ -7,7 +7,7 @@ import { DataService }         from '../../services/data.service';
 @Component({
   selector: 'user-albums-list',
   templateUrl: './user-albums.component.html',
-  styleUrls: [ './user-albums.component.css' ]
+  styleUrls: [ './user-albums.component.less' ]
 })
 export class UserAlbumsComponent implements OnInit {
   @Input('userId') userId:number;
