@@ -7,7 +7,7 @@ import { DataService }         from '../services/data.service';
 @Component({
   selector: 'users',
   templateUrl: './users.component.html',
-  styleUrls: [ './users.component.css' ]
+  styleUrls: [ './users.component.less' ]
 })
 export class UsersComponent implements OnInit {
 
