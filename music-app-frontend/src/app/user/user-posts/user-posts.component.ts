@@ -7,7 +7,7 @@ import { DataService }         from '../../services/data.service';
 @Component({
   selector: 'user-posts-list',
   templateUrl: './user-posts.component.html',
-  styleUrls: [ './user-posts.component.css' ]
+  styleUrls: [ './user-posts.component.less' ]
 })
 export class UserPostsComponent implements OnInit, OnDestroy {
   @Input('userId') userId:number;
