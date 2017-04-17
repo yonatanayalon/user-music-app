@@ -10,7 +10,7 @@ import { DataService }         from '../services/data.service';
 @Component({
   selector: 'users',
   templateUrl: './user.component.html',
-  styleUrls: [ './user.component.css' ]
+  styleUrls: [ './user.component.less' ]
 })
 export class UserComponent implements OnInit, OnDestroy {
   private sub: any;
